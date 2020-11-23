@@ -1,0 +1,552 @@
+{
+  "nodes": [
+    {
+      "id": 92752
+    },
+    {
+      "id": 24289
+    },
+    {
+      "id": 165047
+    },
+    {
+      "id": 563072
+    },
+    {
+      "id": 563074
+    },
+    {
+      "id": 562827
+    },
+    {
+      "id": 563200
+    },
+    {
+      "id": 563066
+    },
+    {
+      "id": 563155
+    },
+    {
+      "id": 554892
+    },
+    {
+      "id": 554813
+    },
+    {
+      "id": 554893
+    },
+    {
+      "id": 127095
+    },
+    {
+      "id": 574457
+    },
+    {
+      "id": 676716
+    },
+    {
+      "id": 555212
+    },
+    {
+      "id": 567183
+    },
+    {
+      "id": 563233
+    },
+    {
+      "id": 562826
+    },
+    {
+      "id": 555054
+    },
+    {
+      "id": 563147
+    },
+    {
+      "id": 563154
+    },
+    {
+      "id": 572383
+    },
+    {
+      "id": 554497
+    },
+    {
+      "id": 554496
+    },
+    {
+      "id": 561568
+    },
+    {
+      "id": 561569
+    },
+    {
+      "id": 562657
+    },
+    {
+      "id": 562664
+    },
+    {
+      "id": 35951
+    },
+    {
+      "id": 561555
+    },
+    {
+      "id": 563316
+    },
+    {
+      "id": 563317
+    },
+    {
+      "id": 264534
+    },
+    {
+      "id": 572371
+    },
+    {
+      "id": 572376
+    },
+    {
+      "id": 554814
+    },
+    {
+      "id": 555314
+    },
+    {
+      "id": 563071
+    },
+    {
+      "id": 165048
+    },
+    {
+      "id": 165049
+    },
+    {
+      "id": 165050
+    }
+  ],
+  "edges": [
+    {
+      "source": 92752,
+      "target": 24289,
+      "type": 3
+    },
+    {
+      "source": 24289,
+      "target": 92752,
+      "type": 3
+    },
+    {
+      "source": 92752,
+      "target": 165047,
+      "type": 3
+    },
+    {
+      "source": 165047,
+      "target": 563072,
+      "type": 3
+    },
+    {
+      "source": 563072,
+      "target": 165047,
+      "type": 3
+    },
+    {
+      "source": 165047,
+      "target": 563074,
+      "type": 3
+    },
+    {
+      "source": 563074,
+      "target": 165047,
+      "type": 3
+    },
+    {
+      "source": 165047,
+      "target": 562827,
+      "type": 3
+    },
+    {
+      "source": 562827,
+      "target": 563200,
+      "type": 3
+    },
+    {
+      "source": 563200,
+      "target": 562827,
+      "type": 3
+    },
+    {
+      "source": 562827,
+      "target": 563066,
+      "type": 3
+    },
+    {
+      "source": 563066,
+      "target": 562827,
+      "type": 3
+    },
+    {
+      "source": 562827,
+      "target": 563155,
+      "type": 3
+    },
+    {
+      "source": 563155,
+      "target": 562827,
+      "type": 3
+    },
+    {
+      "source": 562827,
+      "target": 165047,
+      "type": 3
+    },
+    {
+      "source": 165047,
+      "target": 554892,
+      "type": 3
+    },
+    {
+      "source": 554892,
+      "target": 554813,
+      "type": 3
+    },
+    {
+      "source": 554813,
+      "target": 554892,
+      "type": 3
+    },
+    {
+      "source": 554813,
+      "target": 554893,
+      "type": 3
+    },
+    {
+      "source": 554893,
+      "target": 554813,
+      "type": 3
+    },
+    {
+      "source": 554893,
+      "target": 127095,
+      "type": 3
+    },
+    {
+      "source": 127095,
+      "target": 574457,
+      "type": 3
+    },
+    {
+      "source": 574457,
+      "target": 127095,
+      "type": 3
+    },
+    {
+      "source": 127095,
+      "target": 676716,
+      "type": 3
+    },
+    {
+      "source": 676716,
+      "target": 127095,
+      "type": 3
+    },
+    {
+      "source": 127095,
+      "target": 554893,
+      "type": 3
+    },
+    {
+      "source": 127095,
+      "target": 165047,
+      "type": 3
+    },
+    {
+      "source": 554892,
+      "target": 165047,
+      "type": 3
+    },
+    {
+      "source": 165047,
+      "target": 555212,
+      "type": 3
+    },
+    {
+      "source": 555212,
+      "target": 567183,
+      "type": 3
+    },
+    {
+      "source": 567183,
+      "target": 555212,
+      "type": 3
+    },
+    {
+      "source": 555212,
+      "target": 563233,
+      "type": 3
+    },
+    {
+      "source": 563233,
+      "target": 555212,
+      "type": 3
+    },
+    {
+      "source": 555212,
+      "target": 562826,
+      "type": 3
+    },
+    {
+      "source": 562826,
+      "target": 555212,
+      "type": 3
+    },
+    {
+      "source": 555212,
+      "target": 165047,
+      "type": 3
+    },
+    {
+      "source": 165047,
+      "target": 555054,
+      "type": 3
+    },
+    {
+      "source": 555054,
+      "target": 165047,
+      "type": 3
+    },
+    {
+      "source": 165047,
+      "target": 563147,
+      "type": 3
+    },
+    {
+      "source": 563147,
+      "target": 165047,
+      "type": 3
+    },
+    {
+      "source": 165047,
+      "target": 92752,
+      "type": 3
+    },
+    {
+      "source": 165047,
+      "target": 563154,
+      "type": 3
+    },
+    {
+      "source": 563154,
+      "target": 165047,
+      "type": 3
+    },
+    {
+      "source": 165047,
+      "target": 127095,
+      "type": 3
+    },
+    {
+      "source": 165047,
+      "target": 572383,
+      "type": 3
+    },
+    {
+      "source": 572383,
+      "target": 554497,
+      "type": 3
+    },
+    {
+      "source": 554497,
+      "target": 554496,
+      "type": 3
+    },
+    {
+      "source": 554496,
+      "target": 554497,
+      "type": 3
+    },
+    {
+      "source": 554497,
+      "target": 561568,
+      "type": 3
+    },
+    {
+      "source": 561568,
+      "target": 554497,
+      "type": 3
+    },
+    {
+      "source": 554497,
+      "target": 561569,
+      "type": 3
+    },
+    {
+      "source": 561569,
+      "target": 554497,
+      "type": 3
+    },
+    {
+      "source": 554497,
+      "target": 562657,
+      "type": 3
+    },
+    {
+      "source": 562657,
+      "target": 554497,
+      "type": 3
+    },
+    {
+      "source": 554497,
+      "target": 562664,
+      "type": 3
+    },
+    {
+      "source": 562664,
+      "target": 554497,
+      "type": 3
+    },
+    {
+      "source": 554497,
+      "target": 35951,
+      "type": 3
+    },
+    {
+      "source": 35951,
+      "target": 554497,
+      "type": 3
+    },
+    {
+      "source": 554497,
+      "target": 561555,
+      "type": 3
+    },
+    {
+      "source": 561555,
+      "target": 554497,
+      "type": 3
+    },
+    {
+      "source": 554497,
+      "target": 563316,
+      "type": 3
+    },
+    {
+      "source": 563316,
+      "target": 554497,
+      "type": 3
+    },
+    {
+      "source": 554497,
+      "target": 563317,
+      "type": 3
+    },
+    {
+      "source": 563317,
+      "target": 554497,
+      "type": 3
+    },
+    {
+      "source": 554497,
+      "target": 264534,
+      "type": 3
+    },
+    {
+      "source": 264534,
+      "target": 554497,
+      "type": 3
+    },
+    {
+      "source": 554497,
+      "target": 572371,
+      "type": 3
+    },
+    {
+      "source": 572371,
+      "target": 554497,
+      "type": 3
+    },
+    {
+      "source": 554497,
+      "target": 572376,
+      "type": 3
+    },
+    {
+      "source": 572376,
+      "target": 554497,
+      "type": 3
+    },
+    {
+      "source": 554497,
+      "target": 554814,
+      "type": 3
+    },
+    {
+      "source": 554814,
+      "target": 554497,
+      "type": 3
+    },
+    {
+      "source": 554814,
+      "target": 555314,
+      "type": 3
+    },
+    {
+      "source": 555314,
+      "target": 554814,
+      "type": 3
+    },
+    {
+      "source": 554497,
+      "target": 572383,
+      "type": 3
+    },
+    {
+      "source": 572383,
+      "target": 165047,
+      "type": 3
+    },
+    {
+      "source": 165047,
+      "target": 563071,
+      "type": 3
+    },
+    {
+      "source": 563071,
+      "target": 165047,
+      "type": 3
+    },
+    {
+      "source": 92752,
+      "target": 165048,
+      "type": 3
+    },
+    {
+      "source": 165048,
+      "target": 92752,
+      "type": 3
+    },
+    {
+      "source": 92752,
+      "target": 165049,
+      "type": 3
+    },
+    {
+      "source": 165049,
+      "target": 92752,
+      "type": 3
+    },
+    {
+      "source": 92752,
+      "target": 165050,
+      "type": 3
+    },
+    {
+      "source": 165050,
+      "target": 92752,
+      "type": 3
+    }
+  ]
+}

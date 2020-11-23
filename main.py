@@ -12,7 +12,7 @@ def processCsv():
     res = {}
     nodesLst = []
     edgesLst = []
-    nodeId = []
+    nodeId = set()          # 在一篇文章中看到使用set会更快 果然快了不止一点半点，这一块简直太重要了，好好复习
 
     res2 = {}
     nodesLst2 = []
@@ -27,23 +27,23 @@ def processCsv():
         for row in f_csv:
             edgeType = int(row[6])
 
-            if edgeType == 2:
+            if edgeType == 1:
                 sourceId = int(row[0])
                 targetId = int(row[2])
                 edge = {"source": sourceId, "target": targetId, "type": edgeType}
                 edgesLst.append(edge)
 
                 if sourceId not in nodeId:
-                    nodeId.append(sourceId)
+                    nodeId.add(sourceId)
                     sourceNode = {"id": sourceId}
                     nodesLst.append(sourceNode)
 
                 if targetId not in nodeId:
-                    nodeId.append(targetId)
+                    nodeId.add(targetId)
                     targetNode = {"id": targetId}
                     nodesLst.append(targetNode)
 
-            elif edgeType == 3:
+            elif edgeType == 2:
                 sourceId = int(row[0])
                 targetId = int(row[2])
                 edge = {"source": sourceId, "target": targetId, "type": edgeType}
@@ -77,10 +77,10 @@ def processCsv():
         print("节点的个数2", len(nodesLst2))
         print("边的个数2", len(edgesLst2))
 
-    with open("relation_2.json", "w") as f:
+    with open("relation_1.json", "w") as f:
         json.dump(res, f, indent=2)
 
-    with open("relation_3.json", "w") as f:
+    with open("relation_2.json", "w") as f:
         json.dump(res2, f, indent=2)
 
 if __name__ == "__main__":
