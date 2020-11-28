@@ -41,12 +41,17 @@ def init():
         print(len(visit))
         print(len(adjacencyList))
 
+
+'''
+这种遍历方式不正确，不会包括所有的边
+两个被访问过的节点，之间有可能新边 这种方法确实会缺少一些边
+'''
 def DFS(node):
     visit[node] = 1    # 更正
     connectedComponents[-1]["nodes"].append({"id": node})
     for neighbor in adjacencyList[node]:
-        connectedComponents[-1]["edges"].append({"source": node, "target": neighbor, "type": 3})
         if visit[neighbor] == 0:
+            connectedComponents[-1]["edges"].append({"source": node, "target": neighbor, "type": 3})
             DFS(neighbor)
 
 
